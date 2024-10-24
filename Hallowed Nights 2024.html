@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hallowed Nights 2024</title>
+  <link rel="stylesheet" href="https://fall2024.dontstarvegame.com/aos.css">
+  <link rel="stylesheet" href="https://fall2024.dontstarvegame.com/style.css">
+  <script src="https://fall2024.dontstarvegame.com/js/scroll-entrance.js"></script>
+  <link rel="icon" href="https://fall2024.dontstarvegame.com/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div class="controls">
+    <div class="audio-buttons-container">
+      <audio id="page-audio" src="https://fall2024.dontstarvegame.com/audio/DST_HalloweenBook_80bpm_V8_192.mp3" type="audio/mpeg"></audio>
+      <input id="page-audio-play" type="image" src="https://fall2024.dontstarvegame.com/images/sound_off.png" onclick="playAudio()" />
+      <input id="page-audio-stop" type="image" src="https://fall2024.dontstarvegame.com/images/sound_on.png" onclick="stopAudio()" />
+      <span class="page-audio-play-help" data-i18n="play_audio"></span>
+    </div>
+    <div class="language-switcher-container">
+      <img class="language-icon" src="https://fall2024.dontstarvegame.com/images/language.png">
+      <select name="language" id="languageSwitcher"></select>
+    </div>
+  </div>
+  <main class="container">
+    <p class="dialog line1" data-entrance="line-animation" data-entrance-delay="200" data-i18n="[html]line1"></p>
+    <p class="dialog line2" data-entrance="line-animation" data-entrance-delay="300" data-i18n="[html]line2"></p>
+    <p class="dialog line3" data-entrance="line-animation" data-entrance-delay="400" data-i18n="[html]line3"></p>
+    <p class="dialog line4" data-entrance="line-animation" data-entrance-delay="500" data-i18n="[html]line4"></p>
+    <p class="dialog line5" data-entrance="line-animation" data-entrance-delay="600" data-i18n="[html]line5"></p>
+    <p class="dialog line6" data-entrance="line-animation" data-entrance-delay="700" data-i18n="[html]line6"></p>
+    <p class="dialog line7" data-entrance="line-animation" data-entrance-delay="800" data-i18n="[html]line7"></p>
+    <div class="panel panel1" id="parallax-scene-1">
+      <img src="https://fall2024.dontstarvegame.com/images/pnl01/pnl01_layer4_main.jpg">
+      <img class="layer panel1hands" data-depth="0.35" src="https://fall2024.dontstarvegame.com/images/pnl01/pnl01_layer3_shadowhands.png">
+      <img class="layer panel1light" src="https://fall2024.dontstarvegame.com/images/pnl01/pnl01_layer2_light.png">
+      <img class="layer panel1leaves" data-depth="0.05" src="https://fall2024.dontstarvegame.com/images/pnl01/pnl01_layer1_leaves.png">
+    </div>
+    <p class="dialog line8" data-entrance="line-animation" data-i18n="[html]line8"></p>
+    <div class="panel panel2" id="parallax-scene-2">
+      <img src="https://fall2024.dontstarvegame.com/images/pnl02/pnl02_layer03_main.jpg">
+      <img class="layer panel2light" src="https://fall2024.dontstarvegame.com/images/pnl02/pnl02_layer02_light.png">
+      <img class="layer panel2leaves" data-depth="0.17" src="https://fall2024.dontstarvegame.com/images/pnl02/pnl02_layer01_leaves.png">
+    </div>
+    <p class="dialog line9" data-entrance="line-animation" data-i18n="[html]line9"></p>
+    <p class="dialog line10" data-entrance="line-animation" data-entrance-delay="200" data-i18n="[html]line10"></p>
+    <p class="dialog line11" data-entrance="line-animation" data-entrance-delay="300" data-i18n="[html]line11"></p>
+    <p class="dialog line12" data-entrance="line-animation" data-entrance-delay="400" data-i18n="[html]line12"></p>
+    <div class="panel panel3" id="parallax-scene-3">
+      <img src="https://fall2024.dontstarvegame.com/images/pnl03/pnl03_layer4_BG.jpg">
+      <img class="layer panel3light" src="https://fall2024.dontstarvegame.com/images/pnl03/pnl03_layer3_light.png">
+      <img class="layer panel3chars" data-depth="0.04" src="https://fall2024.dontstarvegame.com/images/pnl03/pnl03_layer2_characters.png">
+      <img class="layer panel3leaves" data-depth="0.31" src="https://fall2024.dontstarvegame.com/images/pnl03/pnl03_layer1_leaves.png">
+    </div>
+    <p class="dialog line13" data-entrance="line-animation" data-i18n="[html]line13"></p>
+    <div class="panel panel4" id="parallax-scene-4">
+      <img src="https://fall2024.dontstarvegame.com/images/pnl04/pnl04_layer3_main.jpg">
+      <img class="layer panel4creatures" data-depth="0.06" src="https://fall2024.dontstarvegame.com/images/pnl04/pnl04_layer2_shadowcreatures.png">
+      <img class="layer panel4ground" src="https://fall2024.dontstarvegame.com/images/pnl04/pnl04_layer1_ground.png">
+      <img class="layer panel4leaves" data-depth="0.41" src="https://fall2024.dontstarvegame.com/images/pnl04/pnl04_layer1_leaves.png">
+    </div>
+    <p class="dialog line14" data-entrance="line-animation" data-i18n="[html]line14"></p>
+    <p class="dialog line15" data-entrance="line-animation" data-entrance-delay="200" data-i18n="[html]line15"></p>
+    <p class="dialog line16" data-entrance="line-animation" data-entrance-delay="300" data-i18n="[html]line16"></p>
+    <p class="dialog line17" data-entrance="line-animation" data-entrance-delay="400" data-i18n="[html]line17"></p>
+    <div class="panel panel5" id="parallax-scene-5">
+      <img src="https://fall2024.dontstarvegame.com/images/pnl05/pnl05_layer2_main.jpg">
+      <img class="layer panel5leaves" data-depth="0.12" src="https://fall2024.dontstarvegame.com/images/pnl05/pnl05_layer1_leaves.png">
+    </div>
+    <p class="dialog line18" data-entrance="line-animation" data-i18n="[html]line18"></p>
+    <div class="panel panel6" id="parallax-scene-6">
+      <img src="https://fall2024.dontstarvegame.com/images/pnl06/pnl06_layer2_main.jpg">
+      <img class="layer panel6green" data-depth="0.08" src="https://fall2024.dontstarvegame.com/images/pnl06/pnl06_layer2_greenleaves.png">
+      <img class="layer panel6leaves" data-depth="0.49" src="https://fall2024.dontstarvegame.com/images/pnl06/pnl06_layer1_leaves.png">
+    </div>
+    <p class="dialog line19" data-entrance="line-animation" data-i18n="[html]line19"></p>
+    <p class="dialog line20" data-entrance="line-animation" data-entrance-delay="100" data-i18n="[html]line20"></p>
+    <p class="dialog line21" data-entrance="line-animation" data-entrance-delay="200" data-i18n="[html]line21"></p>
+    <div class="panel panel7" id="parallax-scene-7">
+      <img src="https://fall2024.dontstarvegame.com/images/pnl07/pnl07_layer5_bg.jpg">
+      <img class="layer panel7leaves" data-depth="0.11" src="https://fall2024.dontstarvegame.com/images/pnl07/pnl07_layer1_leaves.png">
+    </div>
+    <p class="dialog line22" data-entrance="line-animation" data-i18n="[html]line22"></p>
+    <p class="dialog line23" data-entrance="line-animation" data-entrance-delay="200" data-i18n="[html]line23"></p>
+    <p class="dialog line24" data-entrance="line-animation" data-entrance-delay="400" data-i18n="[html]line24"></p>
+    <div class="panel panel8" id="parallax-scene-8">
+      <img src="https://fall2024.dontstarvegame.com/images/pnl08/halloween_dst_comic_panel8_01.jpg">
+      <img class="layer panel8fire" src="https://fall2024.dontstarvegame.com/images/pnl08/halloween_dst_comic_panel8_fire.gif">
+      <img class="layer panel8rocks" src="https://fall2024.dontstarvegame.com/images/pnl08/halloween_dst_comic_panel8_rocks.png">
+      <img class="layer panel8glow" src="https://fall2024.dontstarvegame.com/images/pnl08/halloween_dst_comic_panel8_glow.png">
+      <img class="layer panel8shadow7" data-depth="0.05" src="https://fall2024.dontstarvegame.com/images/pnl08/halloween_dst_comic_panel8_shadows0007.png">
+      <img class="layer panel8shadow6" data-depth="0.29" src="https://fall2024.dontstarvegame.com/images/pnl08/halloween_dst_comic_panel8_shadows0006.png">
+      <img class="layer panel8shadow5" data-depth="0.04" src="https://fall2024.dontstarvegame.com/images/pnl08/halloween_dst_comic_panel8_shadows0005.png">
+      <img class="layer panel8shadow4" data-depth="0.22" src="https://fall2024.dontstarvegame.com/images/pnl08/halloween_dst_comic_panel8_shadows0004.png">
+      <img class="layer panel8shadow3" data-depth="0.15" src="https://fall2024.dontstarvegame.com/images/pnl08/halloween_dst_comic_panel8_shadows0003.png">
+      <img class="layer panel8shadow2" data-depth="0.47" src="https://fall2024.dontstarvegame.com/images/pnl08/halloween_dst_comic_panel8_shadows0002.png">
+      <img class="layer panel8shadow1" data-depth="0.35" src="https://fall2024.dontstarvegame.com/images/pnl08/halloween_dst_comic_panel8_shadows0001.png">
+      <img class="layer panel8leaves" data-depth="0.15" src="https://fall2024.dontstarvegame.com/images/pnl08/halloween_dst_comic_panel8_leaves.png">
+    </div>
+    <p class="dialog line25" data-entrance="line-animation" data-i18n="[html]line25"></p>
+    <p class="dialog line26" data-entrance="line-animation" data-entrance-delay="200" data-i18n="[html]line26"></p>
+    <p class="dialog line27" data-entrance="line-animation" data-entrance-delay="400" data-i18n="[html]line27"></p>
+    <div class="panel panel9">
+      <img src="https://fall2024.dontstarvegame.com/images/pnl09/halloween_dst_comic_panel9_01.jpg">
+      <img class="layer panel9glow" src="https://fall2024.dontstarvegame.com/images/pnl09/halloween_dst_comic_panel9_glow.png">
+      <a class="clickable" href="https://accounts.klei.com/link/ForYourRecords" target="_blank"></a>
+    </div>
+    <p class="dialog line28" data-entrance="line-animation" data-entrance-delay="200" data-i18n="[html]line28"></p>
+    <p class="dialog line29" data-entrance="line-animation" data-entrance-delay="400" data-i18n="[html]line29"></p>
+    <p class="dialog line30" data-entrance="line-animation" data-entrance-delay="600" data-i18n="[html]line30"></p>
+    <p class="dialog line31" data-entrance="line-animation" data-entrance-delay="800" data-i18n="[html]line31"></p>
+    <div class="panel panel10" id="parallax-scene-10">
+      <img class="layer panel10face" data-depth="0.38" src="https://fall2024.dontstarvegame.com/images/pnl10/halloween_dst_comic_panel10_01.jpg">
+      <img class="layer panel10reflection" data-depth="0.65" src="https://fall2024.dontstarvegame.com/images/pnl10/halloween_dst_comic_panel10_reflection.png">
+      <img class="layer panel10mirror" src="https://fall2024.dontstarvegame.com/images/pnl10/halloween_dst_comic_panel10_02.png">
+    </div>
+    <p class="dialog line32" data-entrance="line-animation" data-i18n="[html]line32"></p>
+    <p class="dialog line33" data-entrance="line-animation" data-entrance-delay="600" data-i18n="[html]line33"></p>
+    <p class="dialog line34" data-entrance="line-animation" data-entrance-delay="1000" data-i18n="[html]line34"></p>
+    <p class="dialog line35" data-entrance="line-animation" data-entrance-delay="1200" data-i18n="[html]line35"></p>
+    <p class="dialog line36" data-entrance="line-animation" data-entrance-delay="2000" data-i18n="[html]line36"></p>
+    <div class="panel panel11">
+      <div id="parallax-scene-11">
+        <img src="https://fall2024.dontstarvegame.com/images/pnl11/halloween_dst_comic_panel11_01.jpg">
+        <img class="layer panel11glow" src="https://fall2024.dontstarvegame.com/images/pnl11/halloween_dst_comic_panel11_glow.png">
+        <img class="layer panel11leaves" data-depth="0.12" src="https://fall2024.dontstarvegame.com/images/pnl11/halloween_dst_comic_panel11_leaves.png">
+        <img class="layer panel11leaf" data-depth="0.28" src="https://fall2024.dontstarvegame.com/images/pnl11/halloween_dst_comic_panel11_leaf.png">
+      </div>
+      <a id="cards-link" class="clickable" href="https://fall2024.dontstarvegame.com/images/hallowednights_cards_2024_en.jpg" target="_blank"></a>
+    </div>
+    <img class="dst-logo" src="https://fall2024.dontstarvegame.com/images/dst-logo.png">
+  </main>
+  <script src="https://fall2024.dontstarvegame.com/js/jquery-3.7.1.slim.min.js"></script>
+
+  <!-- Load translation library -->
+  <script src="https://fall2024.dontstarvegame.com/js/i18next.min.js"></script>
+  <script src="https://fall2024.dontstarvegame.com/js/jquery-i18next.min.js"></script>
+  <script src="https://fall2024.dontstarvegame.com/js/i18nextBrowserLanguageDetector.min.js"></script>
+  <!-- Load translations -->
+  <script src="https://fall2024.dontstarvegame.com/js/i18n.js"></script>
+  <script src="https://fall2024.dontstarvegame.com/i18n/cn.js"></script>
+  <script src="https://fall2024.dontstarvegame.com/i18n/de.js"></script>
+  <script src="https://fall2024.dontstarvegame.com/i18n/en.js"></script>
+  <script src="https://fall2024.dontstarvegame.com/i18n/es.js"></script>
+  <script src="https://fall2024.dontstarvegame.com/i18n/fr.js"></script>
+  <script src="https://fall2024.dontstarvegame.com/i18n/it.js"></script>
+  <script src="https://fall2024.dontstarvegame.com/i18n/ja.js"></script>
+  <script src="https://fall2024.dontstarvegame.com/i18n/ko.js"></script>
+  <script src="https://fall2024.dontstarvegame.com/i18n/pl.js"></script>
+  <script src="https://fall2024.dontstarvegame.com/i18n/pt.js"></script>
+  <script src="https://fall2024.dontstarvegame.com/i18n/ru.js"></script>
+  <!-- Translate -->
+  <script>
+    $(function() {
+      rerender();
+    });
+  </script>
+
+  <!-- Start the parallax library -->
+  <script src="https://fall2024.dontstarvegame.com/js/parallax.min.js"></script>
+  <script>
+    new Parallax(document.getElementById('parallax-scene-1'));
+    new Parallax(document.getElementById('parallax-scene-2'));
+    new Parallax(document.getElementById('parallax-scene-3'));
+    new Parallax(document.getElementById('parallax-scene-4'));
+    new Parallax(document.getElementById('parallax-scene-5'));
+    new Parallax(document.getElementById('parallax-scene-6'));
+    new Parallax(document.getElementById('parallax-scene-7'));
+    new Parallax(document.getElementById('parallax-scene-8'));
+    new Parallax(document.getElementById('parallax-scene-10'));
+    new Parallax(document.getElementById('parallax-scene-11'));
+  </script>
+
+  <!-- Handle page audio -->
+  <script>
+    function playAudio() {
+      $("#page-audio")[0].play();
+      $(".page-audio-play-help").hide();
+      $("#page-audio-play").hide();
+      $("#page-audio-stop").show();
+    }
+
+    function stopAudio() {
+      $("#page-audio")[0].pause();
+      $(".page-audio-play-help").show();
+      $("#page-audio-play").show();
+      $("#page-audio-stop").hide();
+    }
+  </script>
+</body>
+
+</html>
