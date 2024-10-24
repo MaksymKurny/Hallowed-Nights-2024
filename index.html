@@ -10,6 +10,18 @@
   <link rel="stylesheet" href="https://fall2024.dontstarvegame.com/style.css">
   <script src="https://fall2024.dontstarvegame.com/js/scroll-entrance.js"></script>
   <link rel="icon" href="https://fall2024.dontstarvegame.com/favicon.ico" type="image/x-icon">
+  <style>
+    @font-face {
+  font-family: 'belisaplumilla';
+  src: url('//Belisaplumillamanual ULP.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body.uk {
+    font-family: 'belisaplumilla', serif;
+}
+  </style>
 </head>
 
 <body>
@@ -151,9 +163,52 @@
   <script src="https://fall2024.dontstarvegame.com/i18n/ko.js"></script>
   <script src="https://fall2024.dontstarvegame.com/i18n/pl.js"></script>
   <script src="https://fall2024.dontstarvegame.com/i18n/pt.js"></script>
-  <script src="https://fall2024.dontstarvegame.com/i18n/ru.js"></script>
   <!-- Translate -->
   <script>
+    lngs["uk"] = { nativeName: "Ukrainian" };
+
+$(function () {
+    i18next.addResourceBundle('uk', 'translation', {
+        line1: 'Коли',
+        line2: 'самотність',
+        line3: 'тихо',
+        line4: 'підкрадається,',
+        line5: 'ПОВЗЕ',
+        line6: 'по спині',
+        line7: 'в груди,',
+        line8: 'полум\'я ліхтаря б\'ється в паніці,',
+        line9: 'наче хтось хоче <span class="lower">задмухати</span>.',
+        line10: 'Слабшає душа, завмирає тихіше',
+        line11: 'шепоту',
+        line12: 'ледь чутного,',
+        line13: 'і тепла не знайти, <span class="angleddown">не повернути.</span>',
+        line14: 'Хай це похмура мить,',
+        line15: 'і нудно від туги,',
+        line16: 'але все ще горить',
+        line17: 'твій <span class="larger">ВОГНИК</span> всередині.',
+        line18: 'Чутно <span class="echo">відголоски</span> сміху — міст у забуте минуле.',
+        line19: 'Як хочеться не заснути, втримати, зловити це відлуння за хвіст.',
+        line20: 'Хоч на ніч зігрітися теплом —',
+        line21: 'хай розтане до ранку, наче й не було, —',
+        line22: 'усім негараздам на зло',
+        line23: 'вистачить і цього.',
+        line24: 'Якщо ми разом, усі <span class="italic">тіні</span> розвіються, були — і нема.',
+        line25: 'І навіть ті, хто <span class="falling">загублений</span>, знайдуть у сутінках світло.',
+        line26: 'Але є й ті, кажуть,',
+        line27: 'хто в товаристві знемагає.',
+        line28: 'Вони так яскраво палають,',
+        line29: 'що інші просто згоряють.',
+        line30: 'Усміхнуться — не поспішай',
+        line31: 'вносити їх до списку друзів.',
+        line32: 'Це лише маска, щоб приховати <span class="darkness">пітьму</span>,',
+        line33: 'що',
+        line34: 'таїться',
+        line35: 'за нею.',
+        line36: 'ЩАСЛИВИХ СВЯТИХ НІЧЕЙ!',
+        play_audio: 'Увімкнути звук',
+    });
+});
+    
     $(function() {
       rerender();
     });
